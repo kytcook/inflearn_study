@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>일반게시판 > 리스트</title>
+<title>게시판 리스트</title>
 </head>
 <body>
-<h2>일반게시판 > 리스트</h2>
+<h2>게시판 리스트</h2>
 <table>
 <tr>
 	<th>번호</th>
@@ -16,7 +16,7 @@
 	<th>작성일</th>
 	<th>조회수</th>
 </tr>
-<tr>
+<tr onclick="location='view.do?no=10&inc=10'">
 	<td>10</td>
 	<td>Spring Spring</td>
 	<td>관리자</td>
