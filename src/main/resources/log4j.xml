@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.eunmi.myspace">
+	<logger name="com.eunmi">
 		<level value="info" />
 	</logger>
 	
