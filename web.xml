@@ -62,7 +62,7 @@
 	</filter-mapping>
 
 	<!-- 전체 레이아웃 처리를 위한 필터 등록 : sitemesh -->
-<!-- 	<filter>
+	<filter>
 		<filter-name>sitemesh</filter-name>
 		<filter-class>
 			com.opensymphony.sitemesh.webapp.SiteMeshFilter
@@ -71,6 +71,6 @@
 	<filter-mapping>
 		<filter-name>sitemesh</filter-name>
 		<url-pattern>*.do</url-pattern>
-	</filter-mapping> -->
+	</filter-mapping>
 
 </web-app>

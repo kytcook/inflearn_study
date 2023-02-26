@@ -37,6 +37,6 @@
 <br>
 <a href="update.do?no=10">수정</a>
 <a href="delete.do?no=10">삭제</a>
-<a href="delete.do?no=10">리스트</a>
+<a href="list.do?no=10">리스트</a>
 </body>
 </html>

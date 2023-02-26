@@ -8,6 +8,7 @@
 </head>
 <body>
 <h2>게시판 리스트</h2>
+${list }
 <table>
 <tr>
 	<th>번호</th>
