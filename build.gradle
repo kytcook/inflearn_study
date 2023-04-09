@@ -15,10 +15,19 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	runtimeOnly 'com.h2database:h2'
+	
+	/* 오라클 jdbc 설정 */
+//	runtimeOnly 'com.oracle.database.jdbc:ojdbc8'
+//	implementation group: 'com.oracle.ojdbc', name: 'orai18n', version: '19.3.0.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	// devtools - 코드 수정사항
+
+	/* devtools - 코드 수정사항 */
 	compileOnly("org.springframework.boot:spring-boot-devtools")
-	}
+
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
