@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 public class AppConfig {
 
     // @Bean memberService -> new MemberRepository()
@@ -31,7 +31,7 @@ public class AppConfig {
     // call AppConfig.memberRepository
     // call AppConfig.orderService
 
-    Autowired MemberRepository memberRepository;
+    @Autowired MemberRepository memberRepository;
 
     @Bean
     public MemberService memberService() {
